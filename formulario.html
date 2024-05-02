@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="formulario.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+</head>
+<body>
+
+    <h1>Deixe seu feedback e no que podiamos melhorar</h1>
+</body>
+</html>
+<form>
+    <fieldset>
+        <div>
+            <label>Nome</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div>
+            <label>Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+    </fieldset>
+
+    <div>
+        <label>Email</label>
+        <input type="email" name="email" id="email">
+    </div>
+
+    <div>
+        <label>genero</label>
+        <label>
+            <input type="radio" name="devweb" value="frontend">front-end
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="backen">Back-end
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="fullstack">Fullstack
+        </label>
+    </div>
+
+    <div>
+        <label>Senioridade</label>
+        <select id="Senioridade">
+            <option selected disabled value="">Selecione</option>
+            <option>pro</option>
+            <option>noob</option>
+            <option>veterano</option>
+        </select>
+    </div>
+
+    <fieldset>
+        <div>
+            <label>Selecione as tecnologias que utiliza:</label><br><br>
+            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+            <label for="tecnologia1">HTML</label>
+            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="sla">
+            <label for="tecnologia2">sla</label>
+            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="slaa">
+            <label for="tecnologia3">slaa</label>
+        </div>
+    </fieldset>
+</form>
